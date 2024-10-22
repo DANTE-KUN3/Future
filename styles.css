@@ -1,0 +1,65 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1529251333259-d36cccaf22ea?q=80&w=2060&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); /* Light cream background for the body */
+    font-family: 'Georgia', serif;
+    color: #333; /* Dark text color for better contrast */
+    cursor: url('https://icons.iconarchive.com/icons/designcontest/vintage/256/Pen-icon.png') 16 16, auto; /* Change to your pen cursor image */
+}
+
+.container {
+    max-width: 800px; /* Width of the container */
+    margin: 0 auto;
+    padding: 30px; /* Padding for the container */
+    background: rgba(255, 255, 255, 0.9); /* White background with slight transparency */
+    border: 2px solid #6a0dad; /* Purple border */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #6a0dad; /* Purple color for the title */
+    margin-bottom: 20px; /* Space below the title */
+}
+
+.letter-form {
+    background: rgba(255, 255, 255, 0.95); /* Slightly off-white for the form */
+    padding: 30px; /* Padding for the form */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+    margin-top: 15px; /* Space above labels */
+    color: #4caf50; /* Green color for labels */
+    display: block; /* Make labels block elements for better spacing */
+}
+
+input[type="email"],
+input[type="number"],
+textarea {
+    width: calc(100% - 20px); /* Full width minus padding */
+    padding: 15px; /* Padding for input fields */
+    margin-top: 5px;
+    border: 1px solid #6a0dad; /* Purple border for input fields */
+    border-radius: 5px;
+    background-color: #f9f9f9; /* Light background for input fields */
+    color: #333; /* Dark text color for input fields */
+}
+
+button {
+    background-color: #4caf50; /* Green button color */
+    color: #fff; /* White text color for button */
+    padding: 12px 20px; /* Padding for button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    margin-top: 20px; /* Space above button */
+    display: block; /* Center button */
+    width: 100%; /* Full width button */
+}
+
+button:hover {
+    background-color: #388e3c; /* Darker green on hover */
+}
